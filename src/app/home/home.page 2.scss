@@ -1,0 +1,36 @@
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container a {
+  text-decoration: none;
+}
+
+.roc {
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 44px;
+  color: white;
+}
+
+.illustration-1 {
+  font-family: inter, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 74px;
+  color: rgb(255, 255, 255);
+  -webkit-text-stroke: 2px #000000;
+}
+
+#illustration-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
