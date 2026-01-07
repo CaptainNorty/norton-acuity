@@ -1,15 +1,15 @@
 <section class="header">
     <div style="height: 100%; display: grid; place-items: center;">
-        <p class="title">norton acuity</p>
+        <p class="title" (click)="navigate('home')">norton acuity</p>
     </div>
     <div></div>
     <div>
-        <button class="nav-btn">
+        <button class="nav-btn" (click)="navigate('work')">
             <p>Work</p>
         </button>
     </div>
     <div>
-        <button class="nav-btn">
+        <button class="nav-btn" (click)="navigate('blog')">
             <p>Blog</p>
         </button>
     </div>
@@ -19,7 +19,7 @@
         </button>
     </div>
     <div>
-        <button class="nav-btn">
+        <button class="nav-btn" (click)="navigate('contact')">
             <p>Contact</p>
         </button>
     </div>
